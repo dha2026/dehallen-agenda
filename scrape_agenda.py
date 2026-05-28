@@ -5,7 +5,7 @@ Haalt evenementen op van dehallen-amsterdam.nl en genereert een .ics bestand.
 
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import re
 import uuid
 import os
@@ -13,8 +13,16 @@ import os
 URL = "https://www.dehallen-amsterdam.nl/agenda"
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; AgendaScraper/1.0)"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
+
+DATE_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+BEKENDE_CATEGORIES = [
+    "Film", "Expo", "Markt", "Muziek", "Talks & Community",
+    "Theater & Performance", "Workshops & Maken", "Families",
+    "Eten & Drinken", "Kunst & Cultuur", "Shops"
+]
 
 
 def fetch_agenda():
@@ -23,75 +31,133 @@ def fetch_agenda():
     return response.text
 
 
+def find_dates_near_element(element):
+    """Zoek YYYY-MM-DD datums in het element zelf en zijn directe omgeving."""
+    # Kijk in het element zelf
+    text = element.get_text(" ", strip=True)
+    dates = DATE_PATTERN.findall(text)
+    if dates:
+        return dates
+
+    # Kijk in de parent
+    parent = element.parent
+    if parent:
+        text = parent.get_text(" ", strip=True)
+        dates = DATE_PATTERN.findall(text)
+        if dates:
+            return dates
+
+    # Kijk in de grootouder
+    grandparent = parent.parent if parent else None
+    if grandparent:
+        text = grandparent.get_text(" ", strip=True)
+        dates = DATE_PATTERN.findall(text)
+        if dates:
+            return dates
+
+    return []
+
+
+def parse_link_date_text(text):
+    """
+    Probeer datum te parsen uit linktekst als 'Thu28May' of 'May28t/m1Jul'.
+    Geeft (start_date, end_date) of (None, None).
+    """
+    MAANDEN = {
+        "Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
+        "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12
+    }
+    jaar = datetime.now().year
+
+    # Patroon: bijv. "28May" of "1Jul"
+    match = re.search(r"(\d{1,2})(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", text)
+    if match:
+        dag = int(match.group(1))
+        maand = MAANDEN.get(match.group(2))
+        if maand:
+            # Als de maand al voorbij is, gebruik volgend jaar
+            now = datetime.now()
+            if maand < now.month or (maand == now.month and dag < now.day):
+                jaar_start = jaar + 1
+            else:
+                jaar_start = jaar
+            try:
+                return datetime(jaar_start, maand, dag), datetime(jaar_start, maand, dag)
+            except ValueError:
+                pass
+    return None, None
+
+
 def parse_events(html):
     soup = BeautifulSoup(html, "html.parser")
     events = []
+    seen_urls = set()
 
-    # Zoek alle agenda-items (links met categorie, titel, locatie, datum)
     for link in soup.find_all("a", href=True):
         href = link.get("href", "")
-        if "/agenda/" not in href or href == "/agenda":
+        if "/agenda/" not in href or href.rstrip("/") == "/agenda":
             continue
 
-        text = link.get_text(separator="\n", strip=True)
-        lines = [l.strip() for l in text.split("\n") if l.strip()]
+        full_url = href if href.startswith("http") else "https://www.dehallen-amsterdam.nl" + href
 
-        if len(lines) < 2:
+        if full_url in seen_urls:
+            continue
+        seen_urls.add(full_url)
+
+        # Tekst van de link
+        link_text = link.get_text(separator="\n", strip=True)
+        lines = [l.strip() for l in link_text.split("\n") if l.strip()]
+
+        if not lines:
             continue
 
-        # Probeer categorie, titel en locatie/datum te herkennen
+        # Categorie, titel en locatie herkennen
         categorie = ""
         titel = ""
         locatie_datum = ""
 
-        # Categorieën zoals "Film", "Expo", "Markt", etc.
-        bekende_categories = [
-            "Film", "Expo", "Markt", "Muziek", "Talks & Community",
-            "Theater & Performance", "Workshops & Maken", "Families",
-            "Eten & Drinken", "Kunst & Cultuur", "Shops"
-        ]
-
         for i, line in enumerate(lines):
-            for cat in bekende_categories:
-                if line.strip() == cat or line.startswith(cat):
+            for cat in BEKENDE_CATEGORIES:
+                if line == cat or line.startswith(cat):
                     categorie = cat
-                    if i + 1 < len(lines):
-                        titel = lines[i + 1]
-                    if i + 2 < len(lines):
-                        locatie_datum = lines[i + 2]
+                    titel = lines[i + 1] if i + 1 < len(lines) else ""
+                    locatie_datum = lines[i + 2] if i + 2 < len(lines) else ""
                     break
             if categorie:
                 break
 
-        if not titel and lines:
-            titel = lines[0]
-        if not locatie_datum and len(lines) > 1:
-            locatie_datum = lines[-1]
+        if not titel:
+            # Probeer titel te vinden: pak de langste regel die geen datum of categorie is
+            for line in lines:
+                if not DATE_PATTERN.search(line) and line not in BEKENDE_CATEGORIES and len(line) > 3:
+                    titel = line
+                    break
 
         if not titel or len(titel) < 3:
             continue
 
-        # Verwijder dubbelen op basis van URL
-        full_url = href if href.startswith("http") else "https://www.dehallen-amsterdam.nl" + href
-        if any(e["url"] == full_url for e in events):
-            continue
+        # Datums zoeken: eerst in omliggende HTML-elementen
+        dates = find_dates_near_element(link)
 
-        # Beschrijving: combineer beschikbare info
-        beschrijving = f"Categorie: {categorie}\\n{locatie_datum}\\nMeer info: {full_url}" if categorie else f"{locatie_datum}\\nMeer info: {full_url}"
-
-        # Probeer datum te parsen uit data-attributen of tekst
-        dates = link.get("data-dates") or link.get("data-date") or ""
         start_date = None
         end_date = None
 
         if dates:
-            date_list = [d.strip() for d in dates.split(",") if d.strip()]
-            if date_list:
-                try:
-                    start_date = datetime.strptime(date_list[0], "%Y-%m-%d")
-                    end_date = datetime.strptime(date_list[-1], "%Y-%m-%d")
-                except ValueError:
-                    pass
+            try:
+                start_date = datetime.strptime(dates[0], "%Y-%m-%d")
+                end_date = datetime.strptime(dates[-1], "%Y-%m-%d")
+            except ValueError:
+                pass
+
+        # Fallback: probeer datum uit de linktekst te halen
+        if not start_date:
+            start_date, end_date = parse_link_date_text(link_text)
+
+        beschrijving = (
+            f"Categorie: {categorie}\n{locatie_datum}\nMeer info: {full_url}"
+            if categorie else
+            f"{locatie_datum}\nMeer info: {full_url}"
+        ).strip()
 
         events.append({
             "titel": titel,
@@ -116,11 +182,15 @@ def escape_ics(text):
 
 
 def fold_line(line):
-    """ICS vereist dat regels niet langer dan 75 tekens zijn (RFC 5545)."""
+    """ICS vereist dat regels niet langer dan 75 bytes zijn (RFC 5545)."""
     result = []
     while len(line.encode("utf-8")) > 75:
-        result.append(line[:75])
-        line = " " + line[75:]
+        # Knip op tekenbasis zodat we geen UTF-8 kapotmaken
+        cut = 74
+        while len(line[:cut].encode("utf-8")) > 75:
+            cut -= 1
+        result.append(line[:cut])
+        line = " " + line[cut:]
     result.append(line)
     return "\r\n".join(result)
 
@@ -133,7 +203,7 @@ def generate_ics(events):
         "PRODID:-//De Hallen Amsterdam//Agenda//NL",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:De Hallen Amsterdam – Agenda",
+        "X-WR-CALNAME:De Hallen Amsterdam - Agenda",
         "X-WR-CALDESC:Activiteiten agenda van De Hallen Amsterdam",
         "X-WR-TIMEZONE:Europe/Amsterdam",
     ]
@@ -143,22 +213,17 @@ def generate_ics(events):
 
         if event["start_date"]:
             dtstart = event["start_date"].strftime("%Y%m%d")
-            if event["end_date"] and event["end_date"] != event["start_date"]:
-                # Einddatum is exclusief in ICS (all-day), dus +1 dag
-                from datetime import timedelta
+            if event["end_date"] and event["end_date"] > event["start_date"]:
                 dtend = (event["end_date"] + timedelta(days=1)).strftime("%Y%m%d")
             else:
-                from datetime import timedelta
                 dtend = (event["start_date"] + timedelta(days=1)).strftime("%Y%m%d")
             dtstart_line = f"DTSTART;VALUE=DATE:{dtstart}"
             dtend_line = f"DTEND;VALUE=DATE:{dtend}"
         else:
-            # Geen datum bekend: gebruik vandaag
-            today = datetime.now().strftime("%Y%m%d")
-            dtstart_line = f"DTSTART;VALUE=DATE:{today}"
-            dtend_line = f"DTEND;VALUE=DATE:{today}"
+            # Geen datum gevonden: sla dit evenement over
+            continue
 
-        lines += [
+        event_lines = [
             "BEGIN:VEVENT",
             fold_line(f"UID:{uid}@dehallen-amsterdam.nl"),
             f"DTSTAMP:{now}",
@@ -167,14 +232,13 @@ def generate_ics(events):
             fold_line(f"SUMMARY:{escape_ics(event['titel'])}"),
             fold_line(f"DESCRIPTION:{escape_ics(event['beschrijving'])}"),
             fold_line(f"URL:{event['url']}"),
-            fold_line(f"CATEGORIES:{escape_ics(event['categorie'])}") if event["categorie"] else "",
-            "END:VEVENT",
         ]
+        if event["categorie"]:
+            event_lines.append(fold_line(f"CATEGORIES:{escape_ics(event['categorie'])}"))
+        event_lines.append("END:VEVENT")
+        lines.extend(event_lines)
 
     lines.append("END:VCALENDAR")
-
-    # Verwijder lege regels
-    lines = [l for l in lines if l]
     return "\r\n".join(lines) + "\r\n"
 
 
@@ -182,7 +246,13 @@ def main():
     print("Agenda ophalen van De Hallen Amsterdam...")
     html = fetch_agenda()
     events = parse_events(html)
-    print(f"{len(events)} evenementen gevonden.")
+
+    events_with_date = [e for e in events if e["start_date"]]
+    print(f"{len(events)} evenementen gevonden, {len(events_with_date)} met datum.")
+
+    if events_with_date:
+        for e in events_with_date[:5]:
+            print(f"  - {e['titel']} | {e['start_date'].strftime('%Y-%m-%d')} | {e['url']}")
 
     ics_content = generate_ics(events)
 
