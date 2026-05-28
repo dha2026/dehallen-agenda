@@ -1,0 +1,276 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//De Hallen Amsterdam//Agenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:De Hallen Amsterdam – Agenda
+X-WR-CALDESC:Activiteiten agenda van De Hallen Amsterdam
+X-WR-TIMEZONE:Europe/Amsterdam
+BEGIN:VEVENT
+UID:91fcc112-8693-57f5-9cd1-a29e769c7d7d@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:De Filmhallen
+DESCRIPTION:Categorie: Film\\nDe Filmhallen\\nMeer info: https://www.dehall
+ en-amsterdam.nl/agenda/de-filmhallen
+URL:https://www.dehallen-amsterdam.nl/agenda/de-filmhallen
+CATEGORIES:Film
+END:VEVENT
+BEGIN:VEVENT
+UID:f8a5ab4d-6417-56ab-be24-40673e5ca016@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Still Becoming: blijvend in wording
+DESCRIPTION:Categorie: Expo\\nDe Passage\\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/still-becoming-blijvend-in-wording
+URL:https://www.dehallen-amsterdam.nl/agenda/still-becoming-blijvend-in-wor
+ ding
+CATEGORIES:Expo
+END:VEVENT
+BEGIN:VEVENT
+UID:5b40fde1-7d89-558a-a94a-b5e4c652c9d0@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Filmspecial: Eighties
+DESCRIPTION:Categorie: Film\\nDe Filmhallen\\nMeer info: https://www.dehall
+ en-amsterdam.nl/agenda/filmspecial-eighties
+URL:https://www.dehallen-amsterdam.nl/agenda/filmspecial-eighties
+CATEGORIES:Film
+END:VEVENT
+BEGIN:VEVENT
+UID:315baea9-c495-561a-b8a5-603d24aed854@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Speelkwartier
+DESCRIPTION:Categorie: Theater & Performance\\nHal West\\nMeer info: https:
+ //www.dehallen-amsterdam.nl/agenda/speelkwartier
+URL:https://www.dehallen-amsterdam.nl/agenda/speelkwartier
+CATEGORIES:Theater & Performance
+END:VEVENT
+BEGIN:VEVENT
+UID:47160738-cf3e-5ead-8b85-e0f9364fcde3@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Simulacrum Magazine #34.2 Motherboard Launch Event
+DESCRIPTION:Categorie: Talks & Community\\nHal West\\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/simulacrum-magazine-34-2-motherboard-launch
+ -event
+URL:https://www.dehallen-amsterdam.nl/agenda/simulacrum-magazine-34-2-mothe
+ rboard-launch-event
+CATEGORIES:Talks & Community
+END:VEVENT
+BEGIN:VEVENT
+UID:0e6684e2-9381-5aaa-a371-623f167ed398@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:The Maker Market
+DESCRIPTION:Categorie: Markt\\nDe Passage\\nMeer info: https://www.dehallen
+ -amsterdam.nl/agenda/the-maker-market-mei-zon
+URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-mei-zon
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:4fb29833-e29b-574b-bd80-4a16a7ee17ab@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Coffee\, Croissant & Concert!
+DESCRIPTION:Categorie: Muziek\\nBibliotheek OBA De Hallen\\nMeer info: http
+ s://www.dehallen-amsterdam.nl/agenda/coffee-croissant-concert-2
+URL:https://www.dehallen-amsterdam.nl/agenda/coffee-croissant-concert-2
+CATEGORIES:Muziek
+END:VEVENT
+BEGIN:VEVENT
+UID:ad7950ea-f4b8-5e12-9776-887e27238656@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Bands & Bites
+DESCRIPTION:Categorie: Muziek\\nDe Foodhallen\\nMeer info: https://www.deha
+ llen-amsterdam.nl/agenda/bands-bites-7
+URL:https://www.dehallen-amsterdam.nl/agenda/bands-bites-7
+CATEGORIES:Muziek
+END:VEVENT
+BEGIN:VEVENT
+UID:6d7c5cde-50e9-5c98-8170-fe807fdcecde@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Open atelier van kunstenaar Tinca Veerman
+DESCRIPTION:Categorie: Expo\\nBeeldend Gesproken\\nMeer info: https://www.d
+ ehallen-amsterdam.nl/agenda/open-atelier-van-kunstenaar-tinca-veerman
+URL:https://www.dehallen-amsterdam.nl/agenda/open-atelier-van-kunstenaar-ti
+ nca-veerman
+CATEGORIES:Expo
+END:VEVENT
+BEGIN:VEVENT
+UID:902e8154-9665-5ffa-b2cb-bb20e82a4798@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Kringloopmarkt
+DESCRIPTION:Categorie: Markt\\nDe Passage\\nMeer info: https://www.dehallen
+ -amsterdam.nl/agenda/kringloopmarkt
+URL:https://www.dehallen-amsterdam.nl/agenda/kringloopmarkt
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:7d225995-9d7a-5d67-b60f-b01fd4f4258c@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Filmvertoning 'Overal Spullen'
+DESCRIPTION:Categorie: Film\\nHal West\\nMeer info: https://www.dehallen-am
+ sterdam.nl/agenda/filmvertoning-overal-spullen
+URL:https://www.dehallen-amsterdam.nl/agenda/filmvertoning-overal-spullen
+CATEGORIES:Film
+END:VEVENT
+BEGIN:VEVENT
+UID:88526387-b6bf-51d9-b5c4-03fc8c6636d8@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Podium voor de Buurt
+DESCRIPTION:Categorie: Theater & Performance\\nBibliotheek OBA De Hallen\\n
+ Meer info: https://www.dehallen-amsterdam.nl/agenda/podium-voor-de-buurt
+URL:https://www.dehallen-amsterdam.nl/agenda/podium-voor-de-buurt
+CATEGORIES:Theater & Performance
+END:VEVENT
+BEGIN:VEVENT
+UID:8cfc72c6-dd87-5401-a7d2-d31958465f92@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:WK - All games on the big screen
+DESCRIPTION:Categorie: Eten & Drinken\\nDe Foodhallen\\nMeer info: https://
+ www.dehallen-amsterdam.nl/agenda/wk---all-games-on-the-big-screen
+URL:https://www.dehallen-amsterdam.nl/agenda/wk---all-games-on-the-big-scre
+ en
+CATEGORIES:Eten & Drinken
+END:VEVENT
+BEGIN:VEVENT
+UID:a92b73c3-b619-57c1-b774-19f57a636365@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Worldwide Streets
+DESCRIPTION:Categorie: Expo\\nBeeldend Gesproken\\nMeer info: https://www.d
+ ehallen-amsterdam.nl/agenda/worldwide-streets
+URL:https://www.dehallen-amsterdam.nl/agenda/worldwide-streets
+CATEGORIES:Expo
+END:VEVENT
+BEGIN:VEVENT
+UID:bf253b5f-4ce0-5bf7-8ed4-5786a7375539@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Wondere Woensdagen Workshops 5+ - Motherhood Amsterdam
+DESCRIPTION:Categorie: Families\\nDe Passage\\nMeer info: https://www.dehal
+ len-amsterdam.nl/agenda/wondere-woensdagen-workshops---motherhood-amsterda
+ m-176
+URL:https://www.dehallen-amsterdam.nl/agenda/wondere-woensdagen-workshops--
+ -motherhood-amsterdam-176
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:fb18d41e-4fc6-5b15-8507-a4f83dbfc68d@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Piet Paris: The Sketch Show
+DESCRIPTION:Categorie: Expo\\nI Love Illustration Gallery\\nMeer info: http
+ s://www.dehallen-amsterdam.nl/agenda/piet-paris-the-sketch-show
+URL:https://www.dehallen-amsterdam.nl/agenda/piet-paris-the-sketch-show
+CATEGORIES:Expo
+END:VEVENT
+BEGIN:VEVENT
+UID:88d34bde-fa9a-58fa-963a-49b7f816981b@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Muziek voor Baby’s en Peuters
+DESCRIPTION:Categorie: Families\\nCafé Belcampo\\nMeer info: https://www.de
+ hallen-amsterdam.nl/agenda/muziek-voor-babys-en-peuters
+URL:https://www.dehallen-amsterdam.nl/agenda/muziek-voor-babys-en-peuters
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:2b5e9bbc-0026-584d-a65d-2b5d6a64c949@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Vinylmarkt
+DESCRIPTION:Categorie: Markt\\nDe Passage\\nMeer info: https://www.dehallen
+ -amsterdam.nl/agenda/vinylmarkt-the-vinyl-countdown-jun
+URL:https://www.dehallen-amsterdam.nl/agenda/vinylmarkt-the-vinyl-countdown
+ -jun
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:f98465f8-f1cf-596f-be79-45d120759021@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Sandrine Collette in gesprek met Pierre-Pascal Bruneau (Franstalig)
+DESCRIPTION:Categorie: Talks & Community\\nCafé Belcampo\\nMeer info: https
+ ://www.dehallen-amsterdam.nl/agenda/sandrine-collette-in-gesprek-met-pierr
+ e-pascal-bruneau-franstalig
+URL:https://www.dehallen-amsterdam.nl/agenda/sandrine-collette-in-gesprek-m
+ et-pierre-pascal-bruneau-franstalig
+CATEGORIES:Talks & Community
+END:VEVENT
+BEGIN:VEVENT
+UID:e3e3c038-28ab-5343-b298-df9f8345f678@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
+DESCRIPTION:Categorie: Muziek\\nKanarie Club\\nMeer info: https://www.dehal
+ len-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-djs-285
+URL:https://www.dehallen-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-d
+ js-285
+CATEGORIES:Muziek
+END:VEVENT
+BEGIN:VEVENT
+UID:f0d0833d-48a3-5b02-996a-f6aae22e7f91@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Workshop zeep maken
+DESCRIPTION:Categorie: Workshops & Maken\\nNature Bar\\nMeer info: https://
+ www.dehallen-amsterdam.nl/agenda/workshop-zeep-maken---nature-bar-10
+URL:https://www.dehallen-amsterdam.nl/agenda/workshop-zeep-maken---nature-b
+ ar-10
+CATEGORIES:Workshops & Maken
+END:VEVENT
+BEGIN:VEVENT
+UID:57b288dd-4f80-57c9-be73-a2607d086730@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:The Maker Market
+DESCRIPTION:Categorie: Markt\\nDe Passage\\nMeer info: https://www.dehallen
+ -amsterdam.nl/agenda/the-maker-market-mei-zat
+URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-mei-zat
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:1d84db8f-7049-5507-838d-7b848854f32b@dehallen-amsterdam.nl
+DTSTAMP:20260528T132201Z
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260528
+SUMMARY:Flowers of Good Fortune: Traditional Korean Painting Workshop
+DESCRIPTION:Categorie: Workshops & Maken\\nCafé Belcampo\\nMeer info: https
+ ://www.dehallen-amsterdam.nl/agenda/flowers-of-good-fortune-traditional-ko
+ rean-painting-workshop
+URL:https://www.dehallen-amsterdam.nl/agenda/flowers-of-good-fortune-tradit
+ ional-korean-painting-workshop
+CATEGORIES:Workshops & Maken
+END:VEVENT
+END:VCALENDAR
