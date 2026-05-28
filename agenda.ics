@@ -7,8 +7,8 @@ X-WR-CALNAME:De Hallen Amsterdam - Agenda
 X-WR-CALDESC:Activiteiten agenda van De Hallen Amsterdam
 X-WR-TIMEZONE:Europe/Amsterdam
 BEGIN:VEVENT
-UID:f98465f8-f1cf-596f-be79-45d120759021@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:2ef73e9f-4c26-5902-a50d-d7ca1760631d@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260528
 DTEND;VALUE=DATE:20260529
 SUMMARY:Sandrine Collette in gesprek met Pierre-Pascal Bruneau (Franstalig)
@@ -20,8 +20,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/sandrine-collette-in-gesprek-
 CATEGORIES:Talks & Community
 END:VEVENT
 BEGIN:VEVENT
-UID:e3e3c038-28ab-5343-b298-df9f8345f678@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:6741981e-522d-5184-8560-f7d7992978f4@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260530
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -32,8 +32,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:f0d0833d-48a3-5b02-996a-f6aae22e7f91@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:e15387ea-a963-5cf4-bb5e-3e95752cd31e@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 SUMMARY:Workshop zeep maken
@@ -44,8 +44,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/workshop-zeep-maken---nature-
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:57b288dd-4f80-57c9-be73-a2607d086730@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:bf42b7b5-8b51-51bf-baec-54d594a08ef3@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 SUMMARY:The Maker Market
@@ -55,8 +55,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-mei-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:1d84db8f-7049-5507-838d-7b848854f32b@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:5c7afadd-b106-5bd4-a08a-4ce777a8dcec@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
 SUMMARY:Flowers of Good Fortune: Traditional Korean Painting Workshop
@@ -68,8 +68,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/flowers-of-good-fortune-tradi
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:1e06663d-a699-5b63-805f-af7ef030b9bb@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:52b3eb95-629f-5ec8-bbb7-dbd3510d75af@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Poppenkast
@@ -79,8 +79,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/poppenkast-36
 CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
-UID:6be7b3af-adb6-5fda-aaca-b741dde45a9c@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:341c86a9-4be8-5497-9a23-24008be34d2c@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -91,8 +91,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:2d957694-123e-5d32-af71-b3210ef2366b@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:a7a2d95c-5e4d-5541-949b-265fb6a2a7f4@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Veelzeggend 14# OG’S AAN HET WOORD
@@ -103,8 +103,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/veelzeggend-14-ogs-aan-het-wo
 CATEGORIES:Theater & Performance
 END:VEVENT
 BEGIN:VEVENT
-UID:c3afe245-b567-53e0-ad58-e92763411bd5@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:172a142e-694e-5bc9-8440-2fbcc3c89542@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260607
 SUMMARY:Workshop zeep maken
@@ -114,8 +114,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/workshop-zeep-maken
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:31a370a4-cde7-5f51-9aa8-a7c01f4d1231@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:910e03e4-efb7-550c-b93e-aac5496bf192@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260606
 DTEND;VALUE=DATE:20260607
 SUMMARY:Japanese Prints in Watercolor Workshop
@@ -126,8 +126,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/japanese-prints-in-watercolor
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:e4253554-1cb0-5a0c-af7e-56b963e9faa3@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:b933d8ee-3d02-5c3e-8755-125499687b46@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260610
 DTEND;VALUE=DATE:20260611
 SUMMARY:Poppenkast
@@ -137,8 +137,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/poppenkast-106
 CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
-UID:934cbd8e-1853-515e-a9b6-3afdae192825@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:96c4aeff-90a7-5535-be92-10ff1135dff6@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260612
 DTEND;VALUE=DATE:20260613
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -149,8 +149,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:e398d922-2d88-5ae0-8ded-c95608e90bcd@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:539bebb8-7847-519f-b8ca-012aa602435c@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
 SUMMARY:Workshop zeep maken
@@ -160,8 +160,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/workshop-zeep-maken-2
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:abf1b894-d575-5f5b-9683-59508e62ec04@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:60eadc3c-1b3b-596d-9f9f-f41bf19732ee@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
 SUMMARY:Strawberry Japanese Prints in Watercolor Workshop
@@ -173,8 +173,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/strawberry-japanese-prints-in
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:eb8ac6da-c3de-5e48-a0eb-693332956495@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:c5748f5a-3e4a-5775-8d2d-88509d0d3986@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260613
 DTEND;VALUE=DATE:20260614
 SUMMARY:Marimba concert van International School of Amsterdam
@@ -185,8 +185,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/marimba-concert-van-internati
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:7e989d72-74a0-5942-98cd-b077fb3e46c6@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:3cecddd5-5379-5ba3-9d87-8711a0e305e4@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260614
 DTEND;VALUE=DATE:20260615
 SUMMARY:Haydn op Zondag
@@ -196,8 +196,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/haydn-op-zondag-juni
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:44f37452-91c4-5d66-9172-0c640b06ec3f@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:aaac5a7a-b09c-5e79-afa2-ac195cbf0163@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260618
 SUMMARY:Make your own jeans (3-day course)
@@ -208,8 +208,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/make-your-own-jeans-3-day-cou
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:23b258b6-74e6-55ca-9a9b-c3d05848b174@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:60df301e-f6f5-5f43-b895-3019ee6bd253@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260619
 DTEND;VALUE=DATE:20260620
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -220,8 +220,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:32fd29b9-f864-53b1-ada8-868f125c8e73@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:273111d8-aa0f-55fe-a847-47358a4f61ca@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260620
 DTEND;VALUE=DATE:20260621
 SUMMARY:Workshop zeep maken
@@ -231,8 +231,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/workshop-zeep-maken-3
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:e70e97a4-2907-5937-8ba0-a6f432d1e647@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:f4fbd4c2-81f1-5913-a86a-079e321c366d@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260621
 DTEND;VALUE=DATE:20260622
 SUMMARY:Jazz Sunday - Sonder Trio
@@ -242,8 +242,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/jazz-sunday-2
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:3df959a7-e369-54b2-80bb-9636468de0ec@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:6a0470eb-0d65-566c-bc50-5949868cc070@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
 SUMMARY:Poppenkast
@@ -253,8 +253,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/poppenkast-246
 CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
-UID:54cd7888-5f99-5223-9378-09f5dc85f1fe@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:72cd7743-73f7-5a89-a521-c0cb33695026@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -265,8 +265,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:ca07537c-a061-5ba9-8089-b08e28dfa6f3@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:48cc6098-df5c-53dd-96c9-56612f612100@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
 SUMMARY:Workshop zeep maken
@@ -276,8 +276,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/workshop-zeep-maken-4
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:512519f3-5b7c-50d5-a1dd-67229a901e3a@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:9cae4eca-9f9c-5ed8-a399-8407405806d7@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
 SUMMARY:The Maker Market
@@ -287,8 +287,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-jun-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:d533507e-3b5e-5509-b2e6-94aa3adaae72@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:4d20adb8-f666-5a66-93e6-f87b57928c2c@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
 SUMMARY:The Maker Market
@@ -298,8 +298,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-jun-zon
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:2f2cf41f-e84b-5739-bbd5-41a2c3a55590@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:61ebc005-355e-5116-b487-93aa0ace52c5@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 SUMMARY:Tot hier\, maar hoe verder?
@@ -309,8 +309,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/tot-hier-maar-hoe-verder
 CATEGORIES:Talks & Community
 END:VEVENT
 BEGIN:VEVENT
-UID:5803f6ad-4bb9-5a89-bf96-42a88dabbebe@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:c45810b7-aee7-5341-9cdd-5f64e42ba82b@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 SUMMARY:Optreden Erato Vrouwelijke Componisten-Koor
@@ -322,8 +322,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/optreden-erato-vrouwelijke-co
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:86d2f006-a00c-58af-a149-fda4299b114d@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:6a0ae3a4-8885-523b-bd2a-7b4d0c1caa17@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:Japanese Prints in Watercolor Workshop
@@ -335,8 +335,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/japanese-prints-in-watercolor
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
-UID:c44feff4-42a8-5ddc-9e4f-a8b3e180364a@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:1fdfe16b-3746-59d9-8ff5-31d060de67cc@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
 SUMMARY:The Maker Market
@@ -346,8 +346,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-jul-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:c5df7f9d-ae26-5301-a8ce-31ff373114ab@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:d3f31919-d43c-52cd-98d7-b9974dc4b6b3@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 SUMMARY:The Maker Market
@@ -357,8 +357,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-jul-zon
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:f7d09b40-0473-51b2-b103-730635a4e78f@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:2d77fdff-2add-5bd9-9cc1-02c8f5197f43@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:Vinylmarkt
@@ -369,8 +369,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/vinylmarkt-the-vinyl-countdow
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:ecdedc5b-f9f1-5228-a18c-b0e379e94f10@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:bea8462f-92c7-5275-8fd8-09eb037a9abd@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
 SUMMARY:The Maker Market
@@ -380,8 +380,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-aug-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:16484235-000c-523b-8643-a90062a11cc2@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:bc0a6bd4-e9b7-5785-8195-f60d710e568b@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:The Maker Market
@@ -391,8 +391,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-aug-zon
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:85249a33-046d-599f-ab55-29a9d8f1f2f5@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:17d3cfd9-33ad-5bfc-9cb4-a988fd9c79bb@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260411
 DTEND;VALUE=DATE:20260412
 SUMMARY:Art\, Design & Vintage Markt
@@ -402,8 +402,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-3
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:da1557a1-2408-5e71-a54c-1fe909815da5@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:9afe941b-b875-5877-aa9e-09b6b479c82e@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:The Maker Market
@@ -413,8 +413,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-sept-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:9680c619-8a6c-5579-aa76-1ef80b316831@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:fdc72c09-17de-540e-bc02-99624c5522fb@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:The Maker Market
@@ -424,8 +424,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-sept-zon
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:d3d47ae8-3add-5671-beb9-faf2ac70e766@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:78946ef7-4b9d-5c4f-8295-a9e6360403af@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:Art\, Design & Vintage Markt
@@ -435,8 +435,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-4
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:9a021b13-bddc-58de-8419-9f7aaa3d71cd@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:30e30b49-df58-5cb3-bdb6-b205d7aff3a3@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Vinylmarkt
@@ -447,8 +447,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/vinylmarkt-the-vinyl-countdow
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:cc497e9a-f8b9-5b84-b0ee-5702fe1886e3@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:0a382b3e-0a83-5c80-a24c-e0617e19cd37@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:The Maker Market
@@ -458,8 +458,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-okt-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:adacbde1-4258-52cf-a25a-efefc7c951c0@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:94a2d3d5-951a-51e2-ac52-9919bec73491@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:The Maker Market
@@ -469,8 +469,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-okt-zon
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:8c594fdc-9df6-5bd7-8a38-bce4d2b1416e@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:0ff4413e-ba15-5de2-aa8f-e82d0a20c6ba@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:Het Danspaleis
@@ -480,9 +480,86 @@ URL:https://www.dehallen-amsterdam.nl/agenda/het-danspaleis-okt
 CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
-UID:5d08f2f2-8ac6-5ecc-856c-9cf8172022eb@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:de3d04f6-71e5-5dc1-b7f4-6a71ce7bb32c@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:Art\, Design & Vintage Markt
+DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/art-design-vintage-markt-5
+URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:d5db073b-d653-5f7a-880f-8705805266eb@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Art\, Design & Vintage Markt
+DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/art-design-vintage-markt-5
+URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:6530684e-bbd0-590e-a1e4-58c578303123@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Art\, Design & Vintage Markt
+DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/art-design-vintage-markt-5
+URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:e738ad54-011d-5f7e-bc08-29851f52d719@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Art\, Design & Vintage Markt
+DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/art-design-vintage-markt-5
+URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:7960c2da-8f8a-5f3b-aa21-8d86301125f7@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Art\, Design & Vintage Markt
+DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/art-design-vintage-markt-5
+URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:e2935089-915d-5a1b-8e37-3559cfeb8aa8@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Art\, Design & Vintage Markt
+DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/art-design-vintage-markt-5
+URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:a6f967b5-5721-5214-800d-2c798713d846@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Art\, Design & Vintage Markt
+DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
+ amsterdam.nl/agenda/art-design-vintage-markt-5
+URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
+CATEGORIES:Markt
+END:VEVENT
+BEGIN:VEVENT
+UID:daa55bf6-697a-5d34-80fd-87e9a3400d1d@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
+DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Art\, Design & Vintage Markt
 DESCRIPTION:Categorie: Markt\nDe Passage\nMeer info: https://www.dehallen-
@@ -491,8 +568,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-5
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:f13faa50-bde0-5840-8683-b8a256d75081@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:5be62bd4-cd2c-5347-b6ce-c830780398df@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Speel\, Deel\, Ruil en Recycle Festival
@@ -503,8 +580,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/speel-deel-ruil-en-recycle-fe
 CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
-UID:2d649aa8-f044-5097-a104-2e43dab711d5@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:8a777e06-c311-572d-b9a5-2953e6a95dbb@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:Speel\, Deel\, Ruil en Recycle Festival
@@ -515,8 +592,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/speel-deel-ruil-en-recycle-fe
 CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
-UID:cd504427-56bd-5ec9-8cea-c3bd35a50494@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:b43f21f2-5e5e-5e0d-8084-1ace4fdc65dc@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:The Maker Market
@@ -526,8 +603,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-nov-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:5d34f381-c625-519e-92ea-6bbb5b0a3e82@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:ff51c745-d9f5-5279-86ab-852758ba9968@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:The Maker Market
@@ -537,8 +614,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-nov-zon
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:8d031f56-9e3d-5579-a131-be58b1041754@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:241d8efd-d0f7-5a1c-bfea-4324c07ae06f@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Art\, Design & Vintage Markt
@@ -548,8 +625,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/art-design-vintage-markt-6
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:48f979e4-6651-58ae-a642-501a6fbe2983@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:e5bd7e62-4f62-5660-a589-aeae6ed0aac6@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:The Maker Market
@@ -559,8 +636,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-dec26-zat
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:13fb7a27-10ba-5b4b-9193-b29608eb4845@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:f6ad2b0d-f707-57f1-a317-bd60a3b5fdbf@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:The Maker Market
@@ -570,8 +647,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/the-maker-market-dec26-zon
 CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
-UID:9f6a542f-daed-5ca2-82f1-39dc565cfc4a@dehallen-amsterdam.nl
-DTSTAMP:20260528T134128Z
+UID:f22ad742-b2e3-57e4-a1d7-6016abf35fed@dehallen-amsterdam.nl
+DTSTAMP:20260528T134616Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Vinylmarkt
