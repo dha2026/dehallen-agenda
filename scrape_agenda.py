@@ -26,9 +26,30 @@ BEKENDE_CATEGORIES = [
 
 
 def fetch_agenda():
-    response = requests.get(URL, headers=HEADERS, timeout=15)
-    response.raise_for_status()
-    return response.text
+    """Haal alle agendapagina's op en combineer de HTML."""
+    all_html = []
+    page = 1
+    while True:
+        page_url = URL if page == 1 else f"{URL}?895d75a1_page={page}"
+        print(f"  Pagina {page} ophalen: {page_url}")
+        response = requests.get(page_url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        html = response.text
+        all_html.append(html)
+
+        # Stop als er geen "Meer laden" link meer is
+        if "895d75a1_page=" not in html and page > 1:
+            break
+        # Maximaal 10 pagina's om oneindige loops te voorkomen
+        if page >= 10:
+            break
+        # Controleer of de volgende pagina bestaat via de "Meer laden" link
+        next_page_marker = f"895d75a1_page={page + 1}"
+        if next_page_marker not in html:
+            break
+        page += 1
+
+    return "\n".join(all_html)
 
 
 def find_dates_near_element(element):
