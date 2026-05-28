@@ -158,21 +158,35 @@ def parse_events(html):
             continue
 
         # Datums zoeken: eerst in omliggende HTML-elementen
-        dates = find_dates_near_element(link)
+        raw_dates = find_dates_near_element(link)
 
-        start_date = None
-        end_date = None
-
-        if dates:
-            try:
-                start_date = datetime.strptime(dates[0], "%Y-%m-%d")
-                end_date = datetime.strptime(dates[-1], "%Y-%m-%d")
-            except ValueError:
-                pass
+        all_dates = []
+        if raw_dates:
+            for d in raw_dates:
+                try:
+                    all_dates.append(datetime.strptime(d, "%Y-%m-%d"))
+                except ValueError:
+                    pass
 
         # Fallback: probeer datum uit de linktekst te halen
-        if not start_date:
-            start_date, end_date = parse_link_date_text(link_text)
+        if not all_dates:
+            start_date, _ = parse_link_date_text(link_text)
+            if start_date:
+                all_dates = [start_date]
+
+        if not all_dates:
+            continue
+
+        # Bepaal of het een aaneengesloten evenement is (bijv. expo die weken loopt)
+        # of losse momenten (bijv. markt op specifieke zaterdagen)
+        # Aaneengesloten = elke dag een datum (max 1 dag tussenruimte)
+        aaneengesloten = True
+        sorted_dates = sorted(set(all_dates))
+        for i in range(1, len(sorted_dates)):
+            gap = (sorted_dates[i] - sorted_dates[i - 1]).days
+            if gap > 2:  # meer dan 2 dagen tussenruimte = losse momenten
+                aaneengesloten = False
+                break
 
         beschrijving = (
             f"Categorie: {categorie}\n{locatie_datum}\nMeer info: {full_url}"
@@ -180,15 +194,31 @@ def parse_events(html):
             f"{locatie_datum}\nMeer info: {full_url}"
         ).strip()
 
-        events.append({
-            "titel": titel,
-            "categorie": categorie,
-            "locatie_datum": locatie_datum,
-            "url": full_url,
-            "beschrijving": beschrijving,
-            "start_date": start_date,
-            "end_date": end_date,
-        })
+        if aaneengesloten:
+            # Één evenement van begin tot eind
+            events.append({
+                "titel": titel,
+                "categorie": categorie,
+                "locatie_datum": locatie_datum,
+                "url": full_url,
+                "beschrijving": beschrijving,
+                "dates": [sorted_dates[0]],
+                "end_date": sorted_dates[-1],
+                "is_range": True,
+            })
+        else:
+            # Eén evenement per datum
+            for d in sorted_dates:
+                events.append({
+                    "titel": titel,
+                    "categorie": categorie,
+                    "locatie_datum": locatie_datum,
+                    "url": full_url,
+                    "beschrijving": beschrijving,
+                    "dates": [d],
+                    "end_date": d,
+                    "is_range": False,
+                })
 
     return events
 
@@ -230,26 +260,25 @@ def generate_ics(events):
     ]
 
     for event in events:
-        uid = str(uuid.uuid5(uuid.NAMESPACE_URL, event["url"]))
+        start_date = event["dates"][0]
+        end_date = event["end_date"]
 
-        if event["start_date"]:
-            dtstart = event["start_date"].strftime("%Y%m%d")
-            if event["end_date"] and event["end_date"] > event["start_date"]:
-                dtend = (event["end_date"] + timedelta(days=1)).strftime("%Y%m%d")
-            else:
-                dtend = (event["start_date"] + timedelta(days=1)).strftime("%Y%m%d")
-            dtstart_line = f"DTSTART;VALUE=DATE:{dtstart}"
-            dtend_line = f"DTEND;VALUE=DATE:{dtend}"
+        dtstart = start_date.strftime("%Y%m%d")
+        if end_date and end_date > start_date:
+            dtend = (end_date + timedelta(days=1)).strftime("%Y%m%d")
         else:
-            # Geen datum gevonden: sla dit evenement over
-            continue
+            dtend = (start_date + timedelta(days=1)).strftime("%Y%m%d")
+
+        # Unieke UID per evenement + datum (zodat losse momenten elk eigen UID hebben)
+        uid_base = f"{event['url']}:{dtstart}"
+        uid = str(uuid.uuid5(uuid.NAMESPACE_URL, uid_base))
 
         event_lines = [
             "BEGIN:VEVENT",
             fold_line(f"UID:{uid}@dehallen-amsterdam.nl"),
             f"DTSTAMP:{now}",
-            dtstart_line,
-            dtend_line,
+            f"DTSTART;VALUE=DATE:{dtstart}",
+            f"DTEND;VALUE=DATE:{dtend}",
             fold_line(f"SUMMARY:{escape_ics(event['titel'])}"),
             fold_line(f"DESCRIPTION:{escape_ics(event['beschrijving'])}"),
             fold_line(f"URL:{event['url']}"),
@@ -268,12 +297,9 @@ def main():
     html = fetch_agenda()
     events = parse_events(html)
 
-    events_with_date = [e for e in events if e["start_date"]]
-    print(f"{len(events)} evenementen gevonden, {len(events_with_date)} met datum.")
-
-    if events_with_date:
-        for e in events_with_date[:5]:
-            print(f"  - {e['titel']} | {e['start_date'].strftime('%Y-%m-%d')} | {e['url']}")
+    print(f"{len(events)} agenda-items aangemaakt.")
+    for e in events[:5]:
+        print(f"  - {e['titel']} | {e['dates'][0].strftime('%Y-%m-%d')} | {'reeks' if e['is_range'] else 'losse datum'}")
 
     ics_content = generate_ics(events)
 
