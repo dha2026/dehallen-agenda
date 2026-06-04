@@ -123,7 +123,7 @@ def parse_events(html):
 
         if full_url in seen_urls:
             continue
-        seen_urls.add(full_url)
+        # Nog NIET toevoegen aan seen_urls — dat doen we pas als we datum hebben
 
         # Tekst van de link
         link_text = link.get_text(separator="\n", strip=True)
@@ -176,6 +176,9 @@ def parse_events(html):
 
         if not all_dates:
             continue
+
+        # Nu pas markeren als gezien — we hebben een datum, dus dit evenement wordt opgenomen
+        seen_urls.add(full_url)
 
         # Bepaal of het een aaneengesloten evenement is (bijv. expo die weken loopt)
         # of losse momenten (bijv. markt op specifieke zaterdagen)
