@@ -7,20 +7,8 @@ X-WR-CALNAME:De Hallen Amsterdam - Agenda
 X-WR-CALDESC:Activiteiten agenda van De Hallen Amsterdam
 X-WR-TIMEZONE:Europe/Amsterdam
 BEGIN:VEVENT
-UID:dbd7b64e-531b-5737-89cd-a4173fb2cee8@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20270101
-SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
-DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
- w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
-URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
- eater
-CATEGORIES:Families
-END:VEVENT
-BEGIN:VEVENT
 UID:a8f33097-cc29-5a8e-95e5-a96bf5c5d276@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20261218
 SUMMARY:Talkshow Eva bijwonen
@@ -31,7 +19,7 @@ CATEGORIES:Kunst & Cultuur
 END:VEVENT
 BEGIN:VEVENT
 UID:ee9b6d76-db0d-509a-af2e-b9397a77c2ba@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 SUMMARY:Filmspecial: Nineties
@@ -42,7 +30,7 @@ CATEGORIES:Film
 END:VEVENT
 BEGIN:VEVENT
 UID:c018beef-899b-5b3a-8350-622e9dc496b0@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261130
 SUMMARY:Stad in Bloei
@@ -52,31 +40,8 @@ URL:https://www.dehallen-amsterdam.nl/agenda/stad-in-bloei
 CATEGORIES:Expo
 END:VEVENT
 BEGIN:VEVENT
-UID:6b4f0a8e-d431-5ac8-9100-2b18ef480f10@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
-DESCRIPTION:Categorie: Muziek\nKanarie Club\nMeer info: https://www.dehall
- en-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-djs-310
-URL:https://www.dehallen-amsterdam.nl/agenda/de-na-zit-vrijmibo-met-vinyl-
- djs-310
-CATEGORIES:Muziek
-END:VEVENT
-BEGIN:VEVENT
-UID:10592fed-8add-5fcf-b35a-82498c021983@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:Tot hier\, maar hoe verder?
-DESCRIPTION:Categorie: Talks & Community\nHal West\nMeer info: https://www
- .dehallen-amsterdam.nl/agenda/tot-hier-maar-hoe-verder
-URL:https://www.dehallen-amsterdam.nl/agenda/tot-hier-maar-hoe-verder
-CATEGORIES:Talks & Community
-END:VEVENT
-BEGIN:VEVENT
 UID:b43f21f2-5e5e-5e0d-8084-1ace4fdc65dc@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:The Maker Market
@@ -87,7 +52,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:062ab3a7-97fc-58b7-a929-45f0606110af@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Palestine Design Market
@@ -98,7 +63,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:af5e3d8e-fa7e-51ec-bde0-892c349b5cdf@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Workshops Palestine Design Market 28-11
@@ -110,7 +75,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:c436058c-c53c-5d61-9cce-8cc8969b3e8a@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Sinterklaas komt langs!
@@ -121,7 +86,7 @@ CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
 UID:ff51c745-d9f5-5279-86ab-852758ba9968@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:The Maker Market
@@ -132,7 +97,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:2822551d-38e7-56dc-8234-ac2df43461a5@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Palestinian Historic Funky Brunch
@@ -144,7 +109,7 @@ CATEGORIES:Eten & Drinken
 END:VEVENT
 BEGIN:VEVENT
 UID:2217b91c-9782-5515-b695-63910aec21ef@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Coffee\, Croissant & Concert
@@ -155,7 +120,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:4d993168-5416-5d5a-98ae-51b6c7ba9c2d@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Palestine Design Market
@@ -166,7 +131,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:88706efc-5b69-5fa5-aba1-00bc58ac2548@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20270106
 SUMMARY:Expo: Illustratoren van The Maker Market
@@ -178,7 +143,7 @@ CATEGORIES:Expo
 END:VEVENT
 BEGIN:VEVENT
 UID:343ddeaf-6a14-5e55-9f5a-57e8125ee65c@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Workshop Tatreez Palestine Design Market 29-11
@@ -191,7 +156,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:80e3a0ee-fbcb-5bb2-82d9-7bb081d514c1@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:Wondere Woensdagen Workshops 5+ - Motherhood Amsterdam
@@ -204,7 +169,7 @@ CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
 UID:3dcf6e23-234d-5ee3-aa6b-89cf4a575159@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Bands & Bites: Bram
@@ -215,7 +180,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:21311ee2-30a0-5f03-829c-b864aa5cb89a@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -227,7 +192,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:2c71c81e-d734-5b32-8fc8-203834bee5d5@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:Grid Noize – Movement Study on Mental Health
@@ -240,7 +205,7 @@ CATEGORIES:Kunst & Cultuur
 END:VEVENT
 BEGIN:VEVENT
 UID:3f799ce8-546c-5bd4-9507-66e034c1cccb@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Make your own bag (1/2-day course)
@@ -252,7 +217,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:f0f4a9fc-c2ed-537c-b39b-b95f2389fad1@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261210
 SUMMARY:Make your own jeans (3-day course)
@@ -264,7 +229,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:2d2a4d51-ca59-592b-83f2-bdc99a2f09de@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261212
 SUMMARY:Make your own jeans & 2 days lab treatments (one week course)
@@ -277,7 +242,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:7e07a288-a553-50d7-8bf7-2191877cb6ac@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Poppenkast
@@ -288,7 +253,7 @@ CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
 UID:80e58686-7456-52d2-a678-aa6e09decb37@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Bands & Bites: Bertram & Kady
@@ -299,7 +264,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:44701ab8-d3cb-542c-908b-296a6a518d43@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -311,7 +276,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:8ac28fd3-955e-559a-8e64-98b73219fda7@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Workshop zeep maken
@@ -322,7 +287,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:241d8efd-d0f7-5a1c-bfea-4324c07ae06f@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Art\, Design & Vintage Markt
@@ -333,7 +298,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:5d010b2d-6f38-5d44-99ef-879a46547f29@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Workshop Parfum Maken
@@ -344,7 +309,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:4f98bebd-ae69-5b58-9f54-4773a0a949f0@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Haydn op Zondag
@@ -355,7 +320,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:334dd93d-e7b3-5528-a70c-6df88df5bd8f@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Merry Xmas! with Guilty Pleasures Amsterdam
@@ -367,7 +332,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:2b7f2349-19cf-52dd-88c4-1eab7936ff0e@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Go Go Gospel Kerstshow 2026
@@ -378,7 +343,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:3e7ca4a7-30d0-5402-9327-83cb91d9fd9e@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Wondere Woensdagen Workshops 5+ - Motherhood Amsterdam
@@ -391,7 +356,7 @@ CATEGORIES:Families
 END:VEVENT
 BEGIN:VEVENT
 UID:74da8e4e-2edf-53ab-bd34-6427fb896d04@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Bands & Bites: Daniela Valencia
@@ -402,7 +367,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:4e236dee-8b18-523f-9861-b41a70e2a87b@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:De Na-zit | vrijmibo met (vinyl) DJs
@@ -414,7 +379,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:df7c825a-bb8c-5770-8b9b-76ba2ec65e6f@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Workshop zeep maken
@@ -425,7 +390,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:e5bd7e62-4f62-5660-a589-aeae6ed0aac6@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:The Maker Market
@@ -436,7 +401,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:3740eeef-f9a6-575d-a1d7-6ef0ca19632e@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:Workshop Parfum Maken
@@ -447,7 +412,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:f6ad2b0d-f707-57f1-a317-bd60a3b5fdbf@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:The Maker Market
@@ -458,7 +423,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:150e7450-a477-545c-8a0b-50f3a6085a88@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Kerstmarkt De Hallen | Muziek & Optredens
@@ -470,7 +435,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:434e8722-196c-5773-8564-c6d79874c4f8@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:Bands & Bites: Mossy Trio
@@ -481,7 +446,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:f22ad742-b2e3-57e4-a1d7-6016abf35fed@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:Vinylmarkt
@@ -493,7 +458,7 @@ CATEGORIES:Markt
 END:VEVENT
 BEGIN:VEVENT
 UID:921a06fc-f1c5-5158-ae5f-3b058f7a74aa@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Rollerdisco
@@ -504,7 +469,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:a0ebaf8f-84ec-59df-b987-af224bd9080e@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Workshop zeep maken
@@ -515,7 +480,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:af4f0866-5003-51c9-87dd-4f89950c6aff@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:Workshop Parfum Maken
@@ -526,7 +491,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:490652cc-67dc-5b7e-94ba-e588751dca83@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270114
 SUMMARY:Make your own jeans (3-day course)
@@ -538,7 +503,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:e1deb17a-c631-5d8c-b9e4-8077c826f9c4@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:Het Danspaleis
@@ -549,7 +514,7 @@ CATEGORIES:Muziek
 END:VEVENT
 BEGIN:VEVENT
 UID:b124afff-6d0a-5fbb-9bdc-47076de2696b@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Workshop zeep maken
@@ -560,7 +525,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:81626e84-9e3e-5095-988a-c23efc7c3fae@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Workshop Parfum Maken
@@ -570,8 +535,212 @@ URL:https://www.dehallen-amsterdam.nl/agenda/workshop-parfum-maken-4
 CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
+UID:5a705564-e184-5a39-843a-77f9139b17e7@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:9947ebb9-8e66-535e-a1a6-9c8f44a2e84d@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:39617e28-d7bc-557f-9ab4-7607fe18f8af@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:4ad05ed1-a97a-55cb-a54e-f08f1bda978c@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:c15db4b5-a761-5c09-bd3f-1f6a1c7a01fc@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:6843e8ea-2a10-59b4-a554-501edc4ff0db@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:608f6db7-f402-57cd-a74f-5c8b691174b2@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:e4e99de1-2a80-56a9-9600-79a7b6117dbb@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:84fb5b83-11da-57b7-9ca4-b895acf0c7dd@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:46a01167-0073-5917-a629-f96a29a8b7b3@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:9f472f47-32ed-5ce3-8912-8bdb15066f68@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:397b8b09-b6c8-5b8f-85c8-d1b35bcb053f@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:84200d6f-8b52-5009-b529-d461e028a281@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:80e4c567-e2a1-53fc-a267-bbd19f49945d@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:bda0e064-0e18-5e7c-b12b-724579097da9@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:44741b97-78ab-5b90-922e-35be560f94ce@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
+UID:fe014a04-d7dc-5d67-a8fe-d5b0b8a1b34b@dehallen-amsterdam.nl
+DTSTAMP:20261128T135449Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Het Meisje met de Zwavelstokje 3+ - Het Kleine Theater
+DESCRIPTION:Categorie: Families\nDe Hallen Studio's\nMeer info: https://ww
+ w.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-theater
+URL:https://www.dehallen-amsterdam.nl/agenda/meisje-zwavelstokje-kleine-th
+ eater
+CATEGORIES:Families
+END:VEVENT
+BEGIN:VEVENT
 UID:6521b884-82c8-5e0d-b92c-cf499545f47a@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261212
 SUMMARY:Make your own jeans & 2 days lab treatments (one week course)
@@ -584,7 +753,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:d4b0fa34-5fd2-5c57-a7ff-7613df12f4f4@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270311
 SUMMARY:Make your own jeans (3-day course)
@@ -596,7 +765,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:f13239ba-9179-595b-86d6-76dbfeb44a78@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270408
 SUMMARY:Make your own jeans (3-day course)
@@ -608,7 +777,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:b1e84a47-5669-5d13-9b40-23cfc6b23977@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270610
 SUMMARY:Make your own jeans (3-day course)
@@ -620,7 +789,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:4cd4048b-f33c-55f3-ab2c-f1f51844e9bf@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270712
 DTEND;VALUE=DATE:20270717
 SUMMARY:Summer School Make your own jeans & 2 days lab treatments (one wee
@@ -634,7 +803,7 @@ CATEGORIES:Workshops & Maken
 END:VEVENT
 BEGIN:VEVENT
 UID:a29ea226-2dd3-5b9e-afcb-037566706709@dehallen-amsterdam.nl
-DTSTAMP:20261127T144322Z
+DTSTAMP:20261128T135449Z
 DTSTART;VALUE=DATE:20270719
 DTEND;VALUE=DATE:20270724
 SUMMARY:Summer School Make your own jacket or  jeans & 2 days lab treatmen
